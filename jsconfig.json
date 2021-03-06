@@ -1,0 +1,12 @@
+{
+  "compilerOptions": {
+    "baseUrl": ".",
+    "paths": {
+      "@/*": ["./src/*"],
+      "@components/*": ["./src/components/*"],
+      "@js/*":["./src/assets/js/*"]
+    }
+  },
+  "include": ["./src/**/*.svelte", "./src/**/*.js"],
+  "exclude": ["node_modules"]
+}

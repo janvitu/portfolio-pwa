@@ -1,0 +1,69 @@
+<!DOCTYPE html>
+<html lang="cs">
+  <head>
+    <!-- Basic Meta -->
+    <!-- Set character encoding for the document -->
+    <meta charset="utf-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <!-- Viewport for responsive web design -->
+    <meta
+      name="viewport"
+      content="width=device-width, initial-scale=1, viewport-fit=cover"
+    />
+
+    <meta name="author" content="Jan Vítů" />
+    <!-- Document Title -->
+    <title>Jan Vítů | Developer</title>
+    <!-- Meta Description -->
+    <meta
+      name="description"
+      content="Jan Vítů | designér a developer specializující se na webové a mobilní rozhraní."
+    />
+    <!-- Favicon info -->
+    <link
+      rel="apple-touch-icon"
+      sizes="180x180"
+      href="/img/favicon/apple-touch-icon.png"
+    />
+    <link
+      rel="icon"
+      type="image/png"
+      sizes="32x32"
+      href="/img/favicon/favicon-32x32.png"
+    />
+    <link
+      rel="icon"
+      type="image/png"
+      sizes="16x16"
+      href="/img/favicon/favicon-16x16.png"
+    />
+    <link rel="manifest" href="/manifest.json" />
+    <link
+      rel="mask-icon"
+      href="img/favicon/safari-pinned-tab.svg"
+      color="#1a1c33"
+    />
+    <!-- Theme info -->
+    <meta name="msapplication-TileColor" content="#1a1c33" />
+    <meta name="theme-color" content="#1a1c33" />
+    <link rel="stylesheet" href="/dist/assets/css/fonts.css" />
+  </head>
+  <body>
+    <noscript>
+      Pro správné zobrazení stránky je nutné mít zapnutý JavaScript.
+    </noscript>
+    <form
+      id="contact-form"
+      name="contact"
+      netlify-honeypot="bot-field"
+      data-netlify="true"
+      hidden
+    >
+      <input name="email" type="email" />
+      <input name="subject" type="text" />
+      <textarea name="message"></textarea>
+    </form>
+    <script type="module" src="/dist/index.js"></script>
+    <script src="/dist/register-sw.js"></script>
+  </body>
+</html>

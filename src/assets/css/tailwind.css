@@ -1,0 +1,81 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer base {
+  /* Default styles */
+  html {
+    scroll-behavior: smooth;
+  }
+  main {
+    @apply overflow-hidden;
+  }
+  h1,
+  h2,
+  h3,
+  h4 {
+    @apply text-center font-bold;
+  }
+
+  h2 {
+    @apply text-5xl mb-6;
+  }
+  h3 {
+    @apply text-xl mt-8 mb-4;
+  }
+  h4 {
+    @apply text-lg mt-6 mb-4 relative;
+  }
+  h4::after {
+    content: "";
+    @apply absolute bottom-0 h-px w-14 left-1/2 transform -translate-x-1/2;
+    background-color: #d3d3d3;
+  }
+
+  /* ContactForm styles */
+  textarea:required + label::after,
+  input:required + label::after {
+    content: " *";
+  }
+
+  /* Footer styles */
+  footer a.line--after {
+    @apply relative;
+  }
+  footer a.line--after:after {
+    content: "";
+    @apply absolute bottom-0 h-px w-0 left-1/2 bg-white transition-all ease-in-out;
+  }
+  footer a.line--after:hover:after {
+    content: "";
+    @apply absolute h-px left-0 right-0 w-full;
+  }
+
+  /* Styles for menu */
+  .hamburger--is-toggled span:first-child,
+  .hamburger--is-toggled span:last-child {
+    @apply w-0;
+    @apply left-1/2;
+  }
+  .hamburger--is-toggled span:nth-child(2) {
+    @apply rotate-45;
+  }
+  .hamburger--is-toggled span:nth-child(3) {
+    @apply -rotate-45;
+  }
+}
+
+.is-visited label {
+  @apply pl-3 transform translate-y-0 text-sm;
+}
+
+.is-invalid label {
+  @apply text-yellow-400 pl-3 transform translate-y-0 text-sm;
+}
+
+.is-focused .form-line {
+  @apply left-0 right-0 w-auto;
+}
+.is-focused label {
+  @apply text-second pl-3 transform translate-y-0 text-sm;
+}
