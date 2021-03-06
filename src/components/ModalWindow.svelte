@@ -1,9 +1,14 @@
 <script>
   import { modalState } from "@/store/modalState";
+  modalState.subscribe((v) => {
+    v
+      ? document.body.classList.add("overflow-hidden")
+      : document.body.classList.remove("overflow-hidden");
+  });
 </script>
 
 <div
-  class="bg-black bg-opacity-75 w-screen h-screen fixed top-0 left-0"
+  class="bg-black bg-opacity-75 w-screen h-screen fixed top-0 left-0 z-50"
   on:click={(e) => {
     if (e.target === e.currentTarget) modalState.close();
   }}

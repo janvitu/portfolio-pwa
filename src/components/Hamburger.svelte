@@ -1,16 +1,12 @@
 <script>
-  import hamburgerState from "@/store/hamburgerState.js";
-
-  const toggleHamburger = () => {
-    hamburgerState.set(!$hamburgerState);
-  };
+  import { hamburgerState } from "@/store/hamburgerState.js";
 </script>
 
 <button
   class={`w-full h-full block relative cursor-pointer z-50 bg-transparent border-0 ${
     $hamburgerState ? "hamburger--is-toggled" : ""
   }`}
-  on:click={toggleHamburger}
+  on:click={hamburgerState.toggle}
   aria-label="Navigation opener"
 >
   <span

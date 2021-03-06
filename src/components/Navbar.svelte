@@ -1,6 +1,6 @@
 <script>
   import Hamburger from "@components/Hamburger.svelte";
-  import hamburgerState from "@/store/hamburgerState.js";
+  import { hamburgerState } from "@/store/hamburgerState.js";
   import { bounceInOut } from "svelte/easing";
   function pop(node, { duration }) {
     return {
@@ -25,26 +25,31 @@
       class="absolute overflow-hidden bottom-2/3 right-2/3 bg-white border-main border-2 rounded-xl flex flex-col justify-center text-center text-lg origin-bottom-right animate-pop"
     >
       <a
+        on:click={hamburgerState.close}
         href="#home"
         class="relative py-2 px-4 transition-all w-full whitespace-nowrap self-center hover:bg-main hover:text-white"
         >Domů</a
       >
       <a
+        on:click={hamburgerState.close}
         href="#service"
         class="relative py-2 px-4 transition-all w-full whitespace-nowrap self-center border-t border-main hover:bg-main hover:text-white"
         >Jak pracuji</a
       >
       <a
+        on:click={hamburgerState.close}
         href="#work"
         class="relative py-2 px-4 transition-all w-full whitespace-nowrap self-center border-t border-main hover:bg-main hover:text-white"
         >Co dělám</a
       >
       <a
+        on:click={hamburgerState.close}
         href="#about"
         class="relative py-2 px-4 transition-all w-full whitespace-nowrap self-center border-t border-main hover:bg-main hover:text-white"
         >O mně</a
       >
       <a
+        on:click={hamburgerState.close}
         href="#contact"
         class="relative py-2 px-4 transition-all w-full whitespace-nowrap self-center border-t border-main hover:bg-main hover:text-white"
         >Kontakt</a
