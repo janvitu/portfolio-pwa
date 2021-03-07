@@ -1,6 +1,10 @@
 const cacheName = "JanVitu_cache";
 const cacheContent = [
   "index.html",
+  "dist/assets/css/fonts.css",
+  "dist/assets/css/style.css.proxy.js",
+  "dist/assets/css/tailwind.css",
+  "dist/assets/css/tailwind.css.proxy.js",
   "dist/index.js",
   "dist/pages/Home.svelte.js",
   "dist/page-parts/About.svelte.js",
