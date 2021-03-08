@@ -85,6 +85,8 @@
 </script>
 
 <form
+  data-animate
+  class="animation-duration-300 animation-ease-in-out animate-top-bottom"
   id="contact-form"
   name="contact"
   netlify-honeypot="bot-field"

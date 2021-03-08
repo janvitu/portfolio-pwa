@@ -4,8 +4,16 @@
 
 <section id="contact" class="bg-main py-28 text-white text-center w-screen">
   <div class="max-w-5xl w-11/12 mx-auto">
-    <h2>Kontakt</h2>
-    <p>
+    <h2
+      data-animate
+      class="animation-duration-300 animation-ease-in-out animate-top-bottom"
+    >
+      Kontakt
+    </h2>
+    <p
+      data-animate
+      class="animation-duration-300 animation-ease-in-out animate-bottom-top"
+    >
       Máte dotaz nebo chcete navázat spolupráci? Stačí vylpnit formulář níže
       nebo zaslat e-mail na adresu
       <a

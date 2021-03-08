@@ -4,9 +4,17 @@
 
 <section id="service" class="py-28 bg-gray-100 shadow-md text-center w-screen">
   <div class="mx-auto my-12 max-w-5xl">
-    <h2 class="text-5xl mb-6 font-bold">Jak pracuji</h2>
+    <h2
+      data-animate
+      class="text-5xl mb-6 font-bold animation-duration-300 animation-ease-in animate-top-bottom"
+    >
+      Jak pracuji
+    </h2>
     <div class="mx-auto grid gap-2 grid-cols-1 md:grid-cols-2">
-      <div class="grid grid-cols-2">
+      <div
+        data-animate
+        class="grid grid-cols-2 animation-duration-300 animation-ease-in animate-left-right"
+      >
         <ServiceCard>
           <svg
             slot="ico"
@@ -57,7 +65,10 @@
         </ServiceCard>
       </div>
 
-      <div class="grid grid-cols-2">
+      <div
+        data-animate
+        class="grid grid-cols-2 animation-duration-300 animation-ease-in animate-right-left"
+      >
         <ServiceCard>
           <svg
             slot="ico"
@@ -104,7 +115,10 @@
         </ServiceCard>
       </div>
     </div>
-    <div class="mt-12">
+    <div
+      data-animate
+      class="mt-12 animation-duration-300 animation-ease-in animate-bottom-top"
+    >
       <p>
         Každý projekt rozděluji do několika fází:
         <b>analýza potřeb projektu</b>, <b>wireframing</b>,

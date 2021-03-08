@@ -1,0 +1,117 @@
+.animation-duration-150 {
+  animation-duration: 150ms;
+}
+.animation-duration-300 {
+  animation-duration: 300ms;
+}
+.animation-duration-500 {
+  animation-duration: 500ms;
+}
+.animation-duration-600 {
+  animation-duration: 600ms;
+}
+.animation-duration-750 {
+  animation-duration: 750ms;
+}
+.animation-duration-1 {
+  animation-duration: 1000ms;
+}
+
+.animation-delay-150 {
+  animation-delay: 150ms;
+}
+.animation-delay-300 {
+  animation-delay: 300ms;
+}
+.animation-delay-500 {
+  animation-delay: 500ms;
+}
+.animation-delay-600 {
+  animation-delay: 600ms;
+}
+.animation-delay-750 {
+  animation-delay: 750ms;
+}
+.animation-delay-1 {
+  animation-delay: 1000ms;
+}
+
+.animation-ease-in {
+  animation-timing-function: ease-in;
+}
+.animation-ease-in-out {
+  animation-timing-function: ease-in-out;
+}
+.animation-ease-out {
+  animation-timing-function: ease-out;
+}
+.animation-linear {
+  animation-timing-function: linear;
+}
+
+.animation-infinite {
+  animation-iteration-count: infinite;
+}
+.animation-initial {
+  animation-iteration-count: initial;
+}
+.animation-unset {
+  animation-iteration-count: unset;
+}
+
+.animate-left-right.animation--animated {
+  animation-name: left-right;
+}
+.animate-right-left.animation--animated {
+  animation-name: right-left;
+}
+.animate-top-bottom.animation--animated {
+  animation-name: top-bottom;
+}
+.animate-bottom-top.animation--animated {
+  animation-name: bottom-top;
+}
+
+@keyframes left-right {
+  from {
+    opacity: 0;
+    transform: translateX(-20%);
+  }
+  to {
+    opacity: 1;
+    transform: translateX(0);
+  }
+}
+
+@keyframes right-left {
+  from {
+    opacity: 0;
+    transform: translateX(20%);
+  }
+  to {
+    opacity: 1;
+    transform: translateX(0);
+  }
+}
+
+@keyframes top-bottom {
+  from {
+    opacity: 0;
+    transform: translateY(-20%);
+  }
+  to {
+    opacity: 1;
+    transform: translateY(0);
+  }
+}
+
+@keyframes bottom-top {
+  from {
+    opacity: 0;
+    transform: translateY(20%);
+  }
+  to {
+    opacity: 1;
+    transform: translateY(0);
+  }
+}

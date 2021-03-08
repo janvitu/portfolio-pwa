@@ -3,6 +3,19 @@
   import router from "@/router/index.js";
 
   import { routeCurrent } from "@/store/routeState.js";
+  import { onMount } from "svelte";
+
+  import { animationObserver } from "@js/use/siteAnimation";
+
+  onMount(() => {
+    const animationElements = document.querySelectorAll(`[data-animate]`);
+    if ("IntersectionObserver" in window) {
+      animationElements.forEach((animationElement) => {
+        animationElement.classList.add("opacity-0");
+        animationObserver.observe(animationElement);
+      });
+    }
+  });
 
   router();
 </script>

@@ -3,10 +3,18 @@
   import TechTag from "@components/TechTag.svelte";
 </script>
 
-<section id="work" class="py-28 shadow-inner w-screen">
+<section id="work" class="py-28 shadow-inner w-screen ">
   <div class="max-w-5xl mx-auto">
-    <h2 class="text-5xl font-bold">Co dělám</h2>
-    <div class="grid grid-cols-auto min-w-320px">
+    <h2
+      data-animate
+      class="text-5xl font-bold animation-duration-300 animation-ease-in-out animate-top-bottom"
+    >
+      Co dělám
+    </h2>
+    <div
+      data-animate
+      class="grid grid-cols-auto min-w-320px animation-duration-300 animation-ease-in-out animate-bottom-top"
+    >
       <InfoCard>
         <h3 class="mt-0">Webové stránky</h3>
         <p>
@@ -150,7 +158,10 @@
         </svg>
       </InfoCard>
     </div>
-    <div>
+    <div
+      data-animate
+      class="animation-duration-300 animation-ease-in-out animate-bottom-top"
+    >
       <h3>Jak vám mohu pomoci?</h3>
       <ul class="flex flex-wrap justify-center">
         <li class="m-6 text-center flex-basis-320 flex-grow flex-shrink">
