@@ -59,35 +59,35 @@
         <li>
           <a
             href="#home"
-            class="line--after transition-colors hover:text-gray-50 inline-block md:mx-4"
+            class="line--after transition-colors hover:text-gray-50 inline-block md:mx-4 my-4"
             >Domů</a
           >
         </li>
         <li class="border-t border-gray-600 md:border-t-0 md:border-l">
           <a
             href="#service"
-            class="line--after transition-colors hover:text-gray-50 inline-block md:mx-4"
+            class="line--after transition-colors hover:text-gray-50 inline-block md:mx-4 my-4"
             >Jak pracuji</a
           >
         </li>
         <li class="border-t border-gray-600 md:border-t-0 md:border-l">
           <a
             href="#work"
-            class="line--after transition-colors hover:text-gray-50 inline-block md:mx-4"
+            class="line--after transition-colors hover:text-gray-50 inline-block md:mx-4 my-4"
             >Co dělám</a
           >
         </li>
         <li class="border-t border-gray-600 md:border-t-0 md:border-l">
           <a
             href="#about"
-            class="line--after transition-colors hover:text-gray-50 inline-block md:mx-4"
+            class="line--after transition-colors hover:text-gray-50 inline-block md:mx-4 my-4"
             >O mně</a
           >
         </li>
         <li class="border-t border-gray-600 md:border-t-0 md:border-l">
           <a
             href="#contact"
-            class="line--after transition-colors hover:text-gray-50 inline-block md:mx-4"
+            class="line--after transition-colors hover:text-gray-50 inline-block md:mx-4 my-4"
             >Kontakt</a
           >
         </li>
