@@ -8,11 +8,9 @@
   class="bg-main overflow-hidden relative pb-16 md:pb-28 flex flex-col w-screen"
 >
   <header class="flex justify-between mt-4 mr-3 mb-4 ml-3">
-    <div class="flex flex-col gap-4 justify-center text-white">
-      <a href="tel:721892820">
-        <div
-          class="flex space-x-4 items-center hover:text-second transition-colors"
-        >
+    <div class="flex flex-col justify-center text-white">
+      <a href="tel:721892820" class="mb-1">
+        <div class="flex items-center hover:text-second transition-colors">
           <svg
             class="h-4 w-auto"
             aria-hidden="true"
@@ -35,13 +33,11 @@
               />
             </g>
           </svg>
-          <div class="underline whitespace-nowrap">+420 721 892 820</div>
+          <div class="underline whitespace-nowrap ml-4">+420 721 892 820</div>
         </div>
       </a>
-      <a href="mailto:jan@janvitu.dev">
-        <div
-          class="flex space-x-4 items-center hover:text-second transition-colors"
-        >
+      <a href="mailto:jan@janvitu.dev" class="mt-1">
+        <div class="flex items-center hover:text-second transition-colors">
           <svg
             class="h-4 w-auto"
             aria-hidden="true"
@@ -64,12 +60,13 @@
               />
             </g>
           </svg>
-          <div class="underline whitespace-nowrap">jan@janvitu.dev</div>
+          <div class="underline whitespace-nowrap ml-4">jan@janvitu.dev</div>
         </div>
       </a>
     </div>
-    <div class="flex justify-center flex-col gap-2 text-white">
+    <div class="flex justify-center flex-col text-white">
       <a
+        class="mb-1"
         title="GitHub"
         href="https://github.com/vituja"
         target="_blank"
@@ -90,6 +87,7 @@
         </svg>
       </a>
       <a
+        class="mt-1"
         title="CodePen"
         href="https://codepen.io/vituja1"
         target="_blank"
