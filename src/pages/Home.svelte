@@ -9,7 +9,7 @@
 </script>
 
 <svelte:head>
-  <title>Jan Vítů | Developer</title>
+  <title>Jan Vítů | Vývojář</title>
 </svelte:head>
 
 <Navbar />

@@ -14,7 +14,7 @@
       data-animate
       class="mx-6 animation-duration-300 animation-ease-in-out animate-bottom-top"
     >
-      Jsem designér a Full Stack developer s více než 4 lety profesionálních
+      Jsem designér a Full Stack vývojář s více než 4 lety profesionálních
       zkušeností. Zaměřuji se na vývoj webů a webových aplikací včetně PWA
       (Progresivních Webových Aplikací). Také mám zkušenosti s vývojem
       desktopových a mobilních aplikací pro IOS i Android.

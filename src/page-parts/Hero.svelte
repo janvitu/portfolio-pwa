@@ -151,8 +151,8 @@
       <h2 class="text-lg md:text-xl leading-relaxed font-light">
         Jsem <span class="text-second font-normal">UI</span> &
         <span class="text-second font-normal">UX</span> designér a
-        <span class="text-second font-normal">developer</span> specializující se
-        na webové technologie. Mým cílem je vytvářet rychlé a responzivní weby, které
+        <span class="text-second font-normal">vývojář</span> specializující se na
+        webové technologie. Mým cílem je vytvářet rychlé a responzivní weby, které
         uživatele nenutí přemýšlet.
       </h2>
     </div>
