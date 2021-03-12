@@ -3,6 +3,7 @@
 </script>
 
 <button
+  tabindex="0"
   class={`w-full h-full block relative cursor-pointer z-50 bg-transparent border-0 ${
     $hamburgerState ? "hamburger--is-toggled" : ""
   }`}

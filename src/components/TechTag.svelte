@@ -1,3 +1,7 @@
+<script>
+  export let href;
+</script>
+
 <div
   class="relative p-2 mx-1 my-1 w-max bg-gray-200 text-black text-sm flex content-center rounded transition-colors hover:bg-gray-900 hover:text-white"
 >
