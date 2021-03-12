@@ -22,36 +22,36 @@
   {#if $hamburgerState}
     <nav
       out:pop={{ duration: 150 }}
-      class="absolute overflow-hidden bottom-2/3 right-2/3 bg-white rounded-xl flex flex-col justify-center text-center text-lg origin-bottom-right animate-pop"
+      class="absolute overflow-hidden bottom-2/3 right-2/3 rounded-xl flex flex-col justify-center text-center text-lg origin-bottom-right animate-pop shadow-xl"
     >
       <a
         on:click={hamburgerState.close}
         href="#home"
-        class="relative py-2 px-4 transition-all w-full whitespace-nowrap self-center hover:bg-main hover:text-white focus:bg-main focus:text-white"
+        class="relative py-2 px-4 transition-all w-full whitespace-nowrap self-center bg-white hover:bg-main hover:text-white focus:bg-main focus:text-white"
         >Domů</a
       >
       <a
         on:click={hamburgerState.close}
         href="#service"
-        class="relative py-2 px-4 transition-all w-full whitespace-nowrap self-center border-t border-main hover:bg-main hover:text-white focus:bg-main focus:text-white"
+        class="relative py-2 px-4 transition-all w-full whitespace-nowrap self-center border-t border-main bg-white hover:bg-main hover:text-white focus:bg-main focus:text-white"
         >Jak pracuji</a
       >
       <a
         on:click={hamburgerState.close}
         href="#work"
-        class="relative py-2 px-4 transition-all w-full whitespace-nowrap self-center border-t border-main hover:bg-main hover:text-white focus:bg-main focus:text-white"
+        class="relative py-2 px-4 transition-all w-full whitespace-nowrap self-center border-t border-main bg-white hover:bg-main hover:text-white focus:bg-main focus:text-white"
         >Co dělám</a
       >
       <a
         on:click={hamburgerState.close}
         href="#about"
-        class="relative py-2 px-4 transition-all w-full whitespace-nowrap self-center border-t border-main hover:bg-main hover:text-white focus:bg-main focus:text-white"
+        class="relative py-2 px-4 transition-all w-full whitespace-nowrap self-center border-t border-main bg-white hover:bg-main hover:text-white focus:bg-main focus:text-white"
         >O mně</a
       >
       <a
         on:click={hamburgerState.close}
         href="#contact"
-        class="relative py-2 px-4 transition-all w-full whitespace-nowrap self-center border-t border-main hover:bg-main hover:text-white focus:bg-main focus:text-white"
+        class="relative py-2 px-4 transition-all w-full whitespace-nowrap self-center border-t border-main bg-white hover:bg-main hover:text-white focus:bg-main focus:text-white"
         >Kontakt</a
       >
     </nav>
