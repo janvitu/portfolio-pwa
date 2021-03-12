@@ -1,7 +1,31 @@
+<script>
+  import { writable } from "svelte/store";
+
+  const localYear = new Date().getFullYear();
+  const year = writable(localYear);
+  (async () => {
+    try {
+      const cteDateObj = await fetch(
+        "http://worldclockapi.com/api/json/cet/now",
+        {
+          method: "GET",
+        }
+      ).then((res) => res.json());
+      const dateTime = new Date(cteDateObj.currentDateTime);
+      year.set(dateTime.getFullYear());
+    } catch {
+      console.log(
+        `%cFeetching ERROR: %c🌍🕙API error device local time is being used instead`,
+        "color: red;"
+      );
+    }
+  })();
+</script>
+
 <footer class="py-28 bg-maindark text-gray-500 w-screen text-center">
   <div class=" w-11/12 max-w-5xl mx-auto">
     <p>
-      © {new Date().getFullYear()},
+      © {$year},
       <span class="text-second">JAN VÍTŮ</span>
     </p>
     <div class="flex items-center justify-center">
