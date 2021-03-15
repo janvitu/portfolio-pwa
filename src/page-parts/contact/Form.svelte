@@ -266,7 +266,7 @@
   </div>
   <button
     type="submit"
-    class="rounded px-4 py-2 mr-auto ml-auto my-4 min-w-max overflow-hidden relative bg-second text-white"
+    class="rounded px-4 py-2 mr-auto ml-auto my-4 min-w-max overflow-hidden relative bg-second text-white hover:bg-opacity-90"
   >
     Odeslat
   </button>
