@@ -29,8 +29,6 @@
           <img
             slot="icon"
             class="h-4"
-            height="16px"
-            width="auto"
             src="dist/assets/img/icons/html.svg"
             alt="HTML"
           />
@@ -40,8 +38,6 @@
           <img
             slot="icon"
             class="h-4"
-            height="16px"
-            width="auto"
             src="dist/assets/img/icons/css.svg"
             alt="CSS"
           />
@@ -51,8 +47,6 @@
           <img
             slot="icon"
             class="h-4"
-            height="16px"
-            width="auto"
             src="dist/assets/img/icons/javascript.svg"
             alt="JavaScript"
           />
@@ -62,8 +56,6 @@
           <img
             slot="icon"
             class="h-4"
-            height="16px"
-            width="auto"
             src="dist/assets/img/icons/php.svg"
             alt="PHP"
           />
@@ -73,8 +65,6 @@
           <img
             slot="icon"
             class="h-4"
-            height="16px"
-            width="auto"
             src="dist/assets/img/icons/wp.svg"
             alt="Wordpress"
           />
@@ -84,8 +74,6 @@
           <img
             slot="icon"
             class="h-4"
-            height="16px"
-            width="auto"
             src="dist/assets/img/icons/git-icon.svg"
             alt="Git"
           />
@@ -95,8 +83,6 @@
           <img
             slot="icon"
             class="h-4"
-            height="16px"
-            width="auto"
             src="dist/assets/img/icons/npm.svg"
             alt="npm"
           />
@@ -106,8 +92,6 @@
           <img
             slot="icon"
             class="h-4"
-            height="16px"
-            width="auto"
             src="dist/assets/img/icons/webpack-icon.svg"
             alt="Webpack"
           />
@@ -117,8 +101,6 @@
           <img
             slot="icon"
             class="h-4"
-            height="16px"
-            width="auto"
             src="dist/assets/img/icons/reactjs.svg"
             alt="ReacJS"
           />
@@ -128,8 +110,6 @@
           <img
             slot="icon"
             class="h-4"
-            height="16px"
-            width="auto"
             src="dist/assets/img/icons/vuejs.svg"
             alt="VueJS"
           />
@@ -139,8 +119,6 @@
           <img
             slot="icon"
             class="h-4"
-            height="16px"
-            width="auto"
             src="dist/assets/img/icons/nuxtjs.svg"
             alt="NuxtJS"
           />
@@ -150,8 +128,6 @@
           <img
             slot="icon"
             class="h-4"
-            height="16px"
-            width="auto"
             src="dist/assets/img/icons/svelte.svg"
             alt="SvelteJS"
           />
@@ -161,8 +137,6 @@
           <img
             slot="icon"
             class="h-4"
-            height="16px"
-            width="auto"
             src="dist/assets/img/icons/flutter.svg"
             alt="Flutter"
           />
@@ -172,8 +146,6 @@
           <img
             slot="icon"
             class="h-4"
-            height="16px"
-            width="auto"
             src="dist/assets/img/icons/swift.svg"
             alt="Swift"
           />
@@ -183,8 +155,6 @@
           <img
             slot="icon"
             class="h-4"
-            height="16px"
-            width="auto"
             src="dist/assets/img/icons/java.svg"
             alt="Java"
           />
@@ -194,8 +164,6 @@
           <img
             slot="icon"
             class="h-4"
-            height="16px"
-            width="auto"
             src="dist/assets/img/icons/python.svg"
             alt="Python"
           />
@@ -205,8 +173,6 @@
           <img
             slot="icon"
             class="h-4"
-            height="16px"
-            width="auto"
             src="dist/assets/img/icons/tailwindcss.svg"
             alt="Tailwind"
           />
@@ -216,8 +182,6 @@
           <img
             slot="icon"
             class="h-4"
-            height="16px"
-            width="auto"
             src="dist/assets/img/icons/graphql.svg"
             alt="GraphQL"
           />
@@ -227,8 +191,6 @@
           <img
             slot="icon"
             class="h-4"
-            height="16px"
-            width="auto"
             src="dist/assets/img/icons/nodejs.svg"
             alt="NodeJS"
           />
@@ -238,8 +200,6 @@
           <img
             slot="icon"
             class="h-4"
-            height="16px"
-            width="auto"
             src="dist/assets/img/icons/deno.svg"
             alt="Deno"
           />
@@ -249,8 +209,6 @@
           <img
             slot="icon"
             class="h-4"
-            height="16px"
-            width="auto"
             src="dist/assets/img/icons/mysql.svg"
             alt="MySQL"
           />
@@ -260,8 +218,6 @@
           <img
             slot="icon"
             class="h-4"
-            height="16px"
-            width="auto"
             src="dist/assets/img/icons/mongodb.svg"
             alt="MongoDB"
           />
@@ -271,8 +227,6 @@
           <img
             slot="icon"
             class="h-4"
-            height="16px"
-            width="auto"
             src="dist/assets/img/icons/aws.svg"
             alt="AWS"
           />
@@ -282,8 +236,6 @@
           <img
             slot="icon"
             class="h-4"
-            height="16px"
-            width="auto"
             src="dist/assets/img/icons/Firebase.svg"
             alt="Firebase"
           />
