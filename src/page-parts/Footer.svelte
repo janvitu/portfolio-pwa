@@ -3,7 +3,7 @@
 
   const localYear = new Date().getFullYear();
   const year = writable(localYear);
-  (async () => {
+  /* (async () => {
     try {
       const cteDateObj = await fetch(
         "http://worldclockapi.com/api/json/cet/now",
@@ -19,7 +19,7 @@
         "color: red;"
       );
     }
-  })();
+  })(); */
 </script>
 
 <footer class="py-28 bg-maindark text-gray-500 w-screen text-center">
