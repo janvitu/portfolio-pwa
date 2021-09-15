@@ -75,7 +75,7 @@
 @keyframes left-right {
   from {
     opacity: 0;
-    transform: translateX(-20%);
+    transform: translateX(-50px);
   }
   to {
     opacity: 1;
@@ -86,7 +86,7 @@
 @keyframes right-left {
   from {
     opacity: 0;
-    transform: translateX(20%);
+    transform: translateX(50px);
   }
   to {
     opacity: 1;
@@ -97,7 +97,7 @@
 @keyframes top-bottom {
   from {
     opacity: 0;
-    transform: translateY(-20%);
+    transform: translateY(-50px);
   }
   to {
     opacity: 1;
@@ -108,7 +108,7 @@
 @keyframes bottom-top {
   from {
     opacity: 0;
-    transform: translateY(20%);
+    transform: translateY(50px);
   }
   to {
     opacity: 1;

@@ -63,15 +63,6 @@
             <img
               slot="icon"
               class="h-4"
-              src="dist/assets/img/icons/wp.svg"
-              alt="Wordpress"
-            />
-            <span slot="text">Wordpress</span>
-          </TechTag>
-          <TechTag>
-            <img
-              slot="icon"
-              class="h-4"
               src="dist/assets/img/icons/reactjs.svg"
               alt="ReactJS"
             />
@@ -165,7 +156,7 @@
       <h3>Jak vám mohu pomoci?</h3>
       <ul class="flex flex-wrap justify-center">
         <li class="m-6 text-center flex-basis-320 flex-grow flex-shrink">
-          <h4>Vytvoření nového řešní od nuly</h4>
+          <h4>Vytvoření nového řešení od nuly</h4>
           <p>
             Máte skvělý nápad, ale váš tým nemá čas nebo dostatečné dovednosti
             na jeho realizaci? Pomohu vám s vizuálním designem vývojem softwaru

@@ -1,4 +1,5 @@
 const colors = require("tailwindcss/colors");
+const tailwindDefaults = require("tailwindcss/defaultTheme")
 const _ = require("lodash");
 const plugin = require("tailwindcss/plugin");
 
@@ -7,18 +8,7 @@ module.exports = {
   darkMode: "class", // or 'media' or 'class'
   theme: {
     colors: {
-      /* Default colors */
-      transparent: "transparent",
-      current: "currentColor",
-      black: colors.black,
-      white: colors.white,
-      gray: colors.trueGray,
-      red: colors.red,
-      yellow: colors.amber,
-      blue: colors.blue,
-      pink: colors.pink,
-      purple: colors.purple,
-      /* Custom colors */
+      ...tailwindDefaults.colors,
       main: "#1a1c33",
       maindark: "#252525",
       complement: "#f9dd57",
@@ -27,13 +17,7 @@ module.exports = {
       creme: "#bbb",
     },
     zIndex: {
-      0: "0",
-      10: "10",
-      20: "20",
-      30: "30",
-      40: "40",
-      50: "50",
-      auto: "auto",
+      ...tailwindDefaults.zIndex,
       /* custom negative z */
       "-10": "-10",
       "-1": "-1",
@@ -45,7 +29,7 @@ module.exports = {
       none: "none",
       "0-auto": "0 0 auto",
     },
-    /* flex-basis as a blugin */
+    /* flex-basis as a plugin */
     flexBasis: {
       320: "320px",
     },

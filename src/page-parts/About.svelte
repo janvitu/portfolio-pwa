@@ -65,15 +65,6 @@
           <img
             slot="icon"
             class="h-4"
-            src="dist/assets/img/icons/wp.svg"
-            alt="Wordpress"
-          />
-          <span slot="text">Wordpress</span>
-        </TechTag>
-        <TechTag>
-          <img
-            slot="icon"
-            class="h-4"
             src="dist/assets/img/icons/git-icon.svg"
             alt="Git"
           />

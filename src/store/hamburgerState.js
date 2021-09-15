@@ -4,11 +4,11 @@ const hambState = () => {
   const _hambState = writable(false);
 
   const close = () => {
-    _hambState.update((s) => false);
+    _hambState.update(() => false);
   };
 
   const open = () => {
-    _hambState.update((s) => true);
+    _hambState.update(() => true);
   };
 
   const toggle = () => {
