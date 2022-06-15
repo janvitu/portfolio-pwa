@@ -9,33 +9,6 @@
 >
   <header class="flex justify-between mt-4 mr-3 mb-4 ml-3">
     <div class="flex flex-col justify-center text-white">
-      <a href="tel:721892820" class="mb-1">
-        <div class="flex items-center hover:text-second transition-colors">
-          <svg
-            class="h-4 w-auto"
-            aria-hidden="true"
-            focusable="false"
-            role="img"
-            xmlns="http://www.w3.org/2000/svg"
-            viewBox="0 0 320 512"
-          >
-            <g class="fa-group">
-              <path
-                class="fa-secondary"
-                fill="currentColor"
-                d="M0 384v80a48 48 0 0 0 48 48h224a48 48 0 0 0 48-48v-80zm160 96a32 32 0 1 1 32-32 32 32 0 0 1-32 32z"
-                opacity="0.4"
-              />
-              <path
-                class="fa-primary"
-                fill="currentColor"
-                d="M0 384V48A48 48 0 0 1 48 0h224a48 48 0 0 1 48 48v336z"
-              />
-            </g>
-          </svg>
-          <div class="underline whitespace-nowrap ml-4">+420 721 892 820</div>
-        </div>
-      </a>
       <a href="mailto:jan@janvitu.dev" class="mt-1">
         <div class="flex items-center hover:text-second transition-colors">
           <svg

@@ -227,7 +227,7 @@
           <img
             slot="icon"
             class="h-4"
-            src="dist/assets/img/icons/Firebase.svg"
+            src="dist/assets/img/icons/firebase.svg"
             alt="Firebase"
           />
           <span slot="text">Firebase</span>
